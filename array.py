@@ -35,6 +35,30 @@ import numpy as np
 e=np.full((3,3),7)  #7 is default value
 print(e)
 
-output: [[7 7 7]
+output: 
+[[7 7 7]
  [7 7 7]
  [7 7 7]]
+
+
+#creating sequences of numbers in numpy
+#arange(start,stop,step)
+
+import numpy as np
+f=np.arange(0,10,2)
+print(f)
+
+output: [0 2 4 6 8]
+
+#creating identity matrix
+#eye(size)
+
+import numpy as np
+g=np.eye(3)
+print(g)
+
+output:
+[[1. 0. 0.]
+ [0. 1. 0.]
+ [0. 0. 1.]]
+
