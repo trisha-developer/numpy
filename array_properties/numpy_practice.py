@@ -38,4 +38,13 @@ Shape of the array =  (4, 2)
 Dimension of the array =  2
 Size of each element of the array =  2
 
+#Create a 3×3 NumPy array of all True
 
+import numpy as np
+arr=np.full((3,3),True)
+print(arr)
+
+output: 
+[[ True  True  True]
+ [ True  True  True]
+ [ True  True  True]]
